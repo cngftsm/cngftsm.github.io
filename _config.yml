@@ -1,25 +1,28 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: default
 
+# Site settings
 locale: "tr-TR"
 title: "Yol Projeleri Blog"
-subtitle: ""
-name: "Fatma"
 description: "Yol projeleri ve detayları"
 url: "https://cngftsm.github.io"
-repository: "cngftsm/cngftsm.github.io"
+baseurl: ""
 
-# Site Ayarları
-search: true
-search_full_content: true
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Yazar Bilgileri
+# Site Author
 author:
   name: "Fatma"
   bio: "Yol projeleri üzerine çalışmalar"
   location: "Türkiye"
 
-# Varsayılan Sayfa Ayarları
+# Defaults
 defaults:
   - scope:
       path: ""
