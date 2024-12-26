@@ -4,10 +4,10 @@ minimal_mistakes_skin: "default"
 locale: "tr-TR"
 title: "Yol Projeleri Blog"
 subtitle: ""
-name: "[Adınız]"
+name: "Fatma"
 description: "Yol projeleri ve detayları"
-url: "https://[kullaniciadi].github.io"
-repository: "[kullaniciadi]/[kullaniciadi].github.io"
+url: "https://cngftsm.github.io"
+repository: "cngftsm/cngftsm.github.io"
 
 # Site Ayarları
 search: true
@@ -15,17 +15,9 @@ search_full_content: true
 
 # Yazar Bilgileri
 author:
-  name: "[Adınız]"
-  avatar: "/assets/images/bio-photo.jpg"
+  name: "Fatma"
   bio: "Yol projeleri üzerine çalışmalar"
   location: "Türkiye"
-
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/[kullaniciadi]"
 
 # Varsayılan Sayfa Ayarları
 defaults:
@@ -36,6 +28,5 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
