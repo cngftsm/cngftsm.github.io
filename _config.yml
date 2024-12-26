@@ -48,3 +48,5 @@ navbar:
     url: /
   - title: "Hakkımda"
     url: /about/
+  - title: "Projeler"
+    url: /projects/
